@@ -1,7 +1,8 @@
 {
-  "version": "2.1.0",
+  "version": "3.0.0",
   "download_url": "https://crabygreen.itch.io/game-hub",
   "changelog": [
-    "user menu removed"
+    "Epic and Steam games automatically added"
+    "addition of an achievement system"
   ]
 }
