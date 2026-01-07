@@ -1,7 +1,9 @@
 {
-  "version": "3.1.0",
+  "version": "4.0.0",
   "download_url": "https://crabygreen.itch.io/game-hub",
   "changelog": [
-    "Christmas theme removed"
+    "modernization of the parameter menu"
+    "adding more successes"
+    "adding a collection category"
   ]
 }
