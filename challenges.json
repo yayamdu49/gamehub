@@ -1,0 +1,22 @@
+{
+  "challenges": [
+    {
+      "title": "Joueur du jour",
+      "description": "Joue au moins 2 heures aujourd'hui",
+      "type": "playtime",
+      "target": 2
+    },
+    {
+      "title": "Multi-gaming",
+      "description": "Lance 5 jeux différents aujourd'hui",
+      "type": "games_played",
+      "target": 5
+    },
+    {
+      "title": "Screenshot Master",
+      "description": "Prends 10 screenshots aujourd'hui",
+      "type": "screenshots",
+      "target": 10
+    }
+  ]
+}
