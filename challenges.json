@@ -1,28 +1,276 @@
 {
   "challenges": [
     {
-      "title": "Joueur du jour",
-      "description": "Joue au moins 2 heures aujourd'hui",
+      "title": "Échauffement matinal",
+      "description": "Commence la journée en jouant au moins 0.5 heure aujourd’hui.",
+      "type": "playtime",
+      "target": 0.5
+    },
+    {
+      "title": "Session marathon",
+      "description": "Joue au moins 3 heures au total aujourd’hui, tous jeux confondus.",
+      "type": "playtime",
+      "target": 3
+    },
+    {
+      "title": "Soirée gaming",
+      "description": "Atteins 2 heures de jeu après 18h aujourd’hui (joue ce soir !)",
       "type": "playtime",
       "target": 2
     },
     {
-      "title": "Multi-gaming",
-      "description": "Lance 5 jeux différents aujourd'hui",
+      "title": "Matin productif",
+      "description": "Joue au moins 1 heure avant midi aujourd’hui.",
+      "type": "playtime",
+      "target": 1
+    },
+    {
+      "title": "Petit échauffement",
+      "description": "Lance n’importe quel jeu 2 fois aujourd’hui.",
+      "type": "launches",
+      "target": 2
+    },
+    {
+      "title": "Gamer infatigable",
+      "description": "Lance des jeux au moins 8 fois aujourd’hui.",
+      "type": "launches",
+      "target": 8
+    },
+    {
+      "title": "Découverte du jour",
+      "description": "Joue à 3 jeux différents aujourd’hui.",
+      "type": "games_played",
+      "target": 3
+    },
+    {
+      "title": "Soirée multi-jeux",
+      "description": "Joue à 5 jeux différents aujourd’hui.",
       "type": "games_played",
       "target": 5
     },
     {
-      "title": "Screenshot Master",
-      "description": "Prends 10 screenshots aujourd'hui",
+      "title": "Chasseur d’images",
+      "description": "Prends au moins 5 screenshots aujourd’hui.",
+      "type": "screenshots",
+      "target": 5
+    },
+    {
+      "title": "Photographe en herbe",
+      "description": "Prends 10 screenshots aujourd’hui.",
       "type": "screenshots",
       "target": 10
     },
+
     {
-      "title": "tryhard !",
-      "description": "jouer 8 heure ajourd'hui",
-      "type": "playtime",
+      "title": "Session intensive sur ton jeu favori",
+      "description": "Joue 2 heures à ton jeu favori aujourd’hui.",
+      "type": "favorite_playtime",
+      "target": 2
+    },
+    {
+      "title": "Soirée chill sur ton jeu préféré",
+      "description": "Passe au moins 1.5 heure sur l’un de tes jeux favoris ce soir.",
+      "type": "favorite_playtime",
+      "target": 1.5
+    },
+
+    {
+      "title": "Fan de Minecraft",
+      "description": "Joue au moins 1 heure à Minecraft aujourd’hui.",
+      "type": "game_playtime",
+      "game": "minecraft",
+      "target": 1
+    },
+    {
+      "title": "Pilote de carrière",
+      "description": "Joue 2 heures à F1 24 aujourd’hui.",
+      "type": "game_playtime",
+      "game": "F1 24",
+      "target": 2
+    },
+    {
+      "title": "Soirée Fortnite",
+      "description": "Passe au moins 1.5 heure sur Fortnite aujourd’hui.",
+      "type": "game_playtime",
+      "game": "Fortnite",
+      "target": 1.5
+    },
+    {
+      "title": "Fan de Rocket League",
+      "description": "Joue au moins 1 heure à Rocket League aujourd’hui.",
+      "type": "game_playtime",
+      "game": "Rocket League",
+      "target": 1
+    },
+
+    {
+      "title": "Lance ton jeu préféré",
+      description": "Lance ton jeu favori au moins 3 fois aujourd’hui.",
+      "type": "game_launches",
+      "game": "Minecraft",
+      "target": 3
+    },
+    {
+      "title": "Soirée multi-manches",
+      "description": "Lance 5 parties de ton jeu préféré.",
+      "type": "game_launches",
+      "game": "Rocket League",
+      "target": 5
+    },
+
+    {
+      "title": "Semaine de gamer",
+      "description": "Joue au moins 10 heures au total sur les 7 derniers jours.",
+      "type": "week_playtime",
+      "target": 10
+    },
+    {
+      "title": "Gros tryhard",
+      "description": "Atteins 20 heures de jeu cumulées sur les 7 derniers jours.",
+      "type": "week_playtime",
+      "target": 20
+    },
+    {
+      "title": "Marathon de la semaine",
+      "description": "Cumule 30 heures de jeu sur les 7 derniers jours.",
+      "type": "week_playtime",
+      "target": 30
+    },
+
+    {
+      "title": "Explorateur hebdo",
+      "description": "Joue à au moins 5 jeux différents cette semaine.",
+      "type": "week_games",
+      "target": 5
+    },
+    {
+      "title": "Collectionneur de jeux",
+      "description": "Joue à 8 jeux différents sur les 7 derniers jours.",
+      "type": "week_games",
       "target": 8
+    },
+
+    {
+      "title": "Fidèle au rendez-vous",
+      "description": "Joue au moins une fois par jour pendant 3 jours d’affilée.",
+      "type": "week_days_active",
+      "target": 3
+    },
+    {
+      "title": "Semaine non-stop",
+      "description": "Joue tous les jours pendant 7 jours d’affilée.",
+      "type": "week_days_active",
+      "target": 7
+    },
+
+    {
+      "title": "Double dose",
+      "description": "Joue deux sessions de 30 minutes ou plus aujourd’hui.",
+      "type": "playtime",
+      "target": 1
+    },
+    {
+      "title": "Gros joueur du soir",
+      "description": "Fais au moins 4 lancements de jeux après 20h.",
+      "type": "launches",
+      "target": 4
+    },
+    {
+      "title": "Weekend warrior",
+      "description": "Joue au moins 5 heures ce weekend.",
+      "type": "week_playtime",
+      "target": 5
+    },
+    {
+      "title": "Découverte totale",
+      "description": "Teste 4 nouveaux jeux (que tu n’avais jamais lancés avant) cette semaine.",
+      "type": "week_games",
+      "target": 4
+    },
+
+    {
+      "title": "Marathon nocturne",
+      "description": "Joue 2 heures entre minuit et 6h du matin aujourd’hui.",
+      "type": "playtime",
+      "target": 2
+    },
+    {
+      "title": "Soirée entre amis",
+      "description": "Lance 6 fois des jeux multijoueurs aujourd’hui.",
+      "type": "launches",
+      "target": 6
+    },
+    {
+      "title": "Rush de fin de journée",
+      "description": "Fais 3 sessions de jeu de plus de 45 minutes aujourd’hui.",
+      "type": "playtime",
+      "target": 2.5
+    },
+    {
+      "title": "Série de victoires",
+      "description": "Fais au moins 5 sessions de jeu aujourd’hui.",
+      "type": "launches",
+      "target": 5
+    },
+
+    {
+      "title": "Fan de course",
+      "description": "Joue à un jeu de course au moins 1 heure aujourd’hui.",
+      "type": "game_playtime",
+      "game": "Forza Horizon 5",
+      "target": 1
+    },
+    {
+      "title": "Survie extrême",
+      "description": "Passe 2 heures sur un jeu de survie (ex: The Long Dark, Subnautica...).",
+      "type": "game_playtime",
+      "game": "The Long Dark"
+ ,
+      "target": 2
+    },
+    {
+      "title": "Retour à l’aventure",
+      "description": "Reviens sur un jeu que tu n’as pas lancé depuis au moins 7 jours et joue 1 heure.",
+      "type": "game_playtime",
+      "game": "Minecraft",
+      "target": 1
+    },
+    {
+      "title": "Photos souvenirs",
+      "description": "Prends 7 screenshots aujourd’hui dans tes jeux préférés.",
+      "type": "screenshots",
+      "target": 7
+    },
+
+    {
+      "title": "Soirée rétro",
+      "description": "Joue au moins 1 heure à un vieux jeu de ta bibliothèque (ajouté il y a plus de 6 mois).",
+      "type": "week_playtime",
+      "target": 1
+    },
+    {
+      "title": "Test du jour",
+      "description": "Lance un jeu que tu n’avais jamais ouvert auparavant.",
+      "type": "games_played",
+      "target": 1
+    },
+    {
+      "title": "Grind intensif",
+      "description": "Atteins 4 heures de jeu au total aujourd’hui.",
+      "type": "playtime",
+      "target": 4
+    },
+    {
+      "title": "Explorateur du week-end",
+      "description": "Découvre 3 nouveaux jeux pendant le week-end.",
+      "type": "week_games",
+      "target": 3
+    },
+    {
+      "title": "Pro des favoris",
+      "description": "Passe au moins 3 heures sur tes jeux favoris aujourd’hui.",
+      "type": "favorite_playtime",
+      "target": 3
     }
   ]
 }
