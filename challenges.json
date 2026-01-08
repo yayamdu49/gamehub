@@ -17,6 +17,12 @@
       "description": "Prends 10 screenshots aujourd'hui",
       "type": "screenshots",
       "target": 10
+    },
+    {
+      "title": "tryhard !",
+      "description": "jouer 8 heure ajourd'hui",
+      "type": "playtime",
+      "target": 8
     }
   ]
 }
