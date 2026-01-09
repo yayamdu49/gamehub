@@ -105,7 +105,7 @@
 
     {
       "title": "Lance ton jeu préféré",
-      description": "Lance ton jeu favori au moins 3 fois aujourd’hui.",
+      "description": "Lance ton jeu favori au moins 3 fois aujourd’hui.",
       "type": "game_launches",
       "game": "Minecraft",
       "target": 3
